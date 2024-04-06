@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #121725;
+}
+
+input {
+  width: 350px; 
+  height: 56px; 
+  border: none;
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0 0 30px;
+  background-color: #2C344B;
+  color: #979797;
+}
+
+button {
+  width: 162px;
+  height: 46px;
+  border: none;
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #54E6AF;
+  color: #121725;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #B3FFE2;
+}
+
+.logos {
+  padding: 0 20px 0 0;
+}
