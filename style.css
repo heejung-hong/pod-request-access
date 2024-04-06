@@ -11,10 +11,70 @@ body {
   font-weight: 100;
   font-style: normal;
   background-color: #121725;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container {
+  width: 1275px; height: 640px; justify-content: right;
+  position: relative;
+}
+
+.pod-logo {
+  width: 135px; height: 56px;
+  position: absolute;
+  top: -28px;
+}
+
+.host {
+  position: absolute;
+  right: 0%;
+}
+
+.dots {
+  width: 232px; height: 104px;
+  position: absolute;
+  right: 0;
+  bottom: -52px;
+}
+
+.container-one {
+  width: 723px; height: 509px;
+  background-color: #121725;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.container-two {
+  font-size: 52px; 
+  color: #54E6AF; 
+  width: 665px; 
+  margin: 90px 0 0 0;
+}
+
+.container-three {
+  font-size: 52px; 
+  color: #FFFFFF; 
+  width: 665px;
+}
+
+.container-four {
+  color: #C2CBE5; 
+  font-size: 18px;
+  line-height: 28px;
+  width: 445px; 
+  margin: 20px 0 40px 0;
+}
+
+.container-five {
+  position: relative; 
+  width: 427px; 
+  height: 56px;
 }
 
 input {
-  width: 350px; 
+  width: 427px; 
   height: 56px; 
   border: none;
   border-radius: 28px;
@@ -34,6 +94,9 @@ button {
   font-weight: bold;
   background-color: #54E6AF;
   color: #121725;
+  position: absolute;
+  right: 0;
+  margin: 5px;
 }
 
 button:hover {
@@ -41,6 +104,21 @@ button:hover {
   background-color: #B3FFE2;
 }
 
+.oops {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FB3E3E;
+  margin: 10px 0 0 30px;
+  display: none;
+}
+
+.container-six {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  margin: 60px 0 0 0;
+}
+
 .logos {
-  padding: 0 20px 0 0;
+  padding: 0 35px 0 0;
 }
