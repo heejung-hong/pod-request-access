@@ -30,15 +30,15 @@ Users should be able to:
 
 #### Desktop View
 
-
+![Screenshot 2024-04-07 at 2 09 26 PM](https://github.com/heejung-hong/pod-request-access/assets/133067265/616bd57d-5252-48a6-930c-e2ea3aaf984a)
 
 #### Tablet View
 
-
+![Screenshot 2024-04-07 at 2 10 10 PM](https://github.com/heejung-hong/pod-request-access/assets/133067265/8f186544-7e80-4b06-89e4-24eeeb83c942)
 
 #### Mobile View
 
-
+![Screenshot 2024-04-07 at 2 11 11 PM](https://github.com/heejung-hong/pod-request-access/assets/133067265/b263a851-ada4-4f8d-a3b2-8cb11698b2db) ![Screenshot 2024-04-07 at 2 11 26 PM](https://github.com/heejung-hong/pod-request-access/assets/133067265/2dc1327c-6ba4-4576-bd07-954a2796995e)
 
 ### Links
 
@@ -55,8 +55,6 @@ Users should be able to:
 - Flexbox
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 I learned to create specific width points for different screens sizes and to 
 
@@ -80,6 +78,7 @@ To see how you can add code snippets, see below:
 ```
 ```js
 // Separating email logic for empty email field and email not formatted correctly.
+
 if (emailInput.value === "") {
   emailError.innerHTML = "Oops! Please add your email";
   emailError.classList.add("oops");
