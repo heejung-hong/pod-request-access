@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
   <main>
@@ -45,9 +46,9 @@
           <img class="logos-mobile" src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts logo">
         </div>
         <div class="container-five">
-          <input placeholder="Email address">
-          <button>Request access</button>
-          <div class="oops">Oops! Please check your email</div>
+          <input type="email" id="email-input" name="email" placeholder="Email address" onkeyup="validateEmail()">
+          <button type="submit" id="subscribe" disabled>Request access</button>
+          <div id="email-error"></div>
         </div>
         <div class="container-six">
           <div class="logos"><img src="./assets/desktop/spotify.svg" alt="Spotify logo"></div>

@@ -66,11 +66,20 @@ body {
     text-align: center;
   }
 
-  .container-five { width: 327px; height: 106px; }
+  .container-five { width: 327px; height: 106px; position: relative; }
 
   input { width: 327px; height: 46px; margin: 50px 0 10px 0; }
 
   button { width: 326px; height: 46px; margin: 10px 0 10px 0; }
+
+  .oops {
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FB3E3E;
+    top: 25px;
+    left: 30px;
+  }
 
   .container-six { display: none; }
 
@@ -85,7 +94,7 @@ body {
   .logos-mobile { height: 15px; width: auto; }
 }
 
-@media only screen and (min-width: 600px)  and (max-width: 1023px)  {
+@media only screen and (min-width: 600px) and (max-width: 1200px)  {
   body {  align-items: center; }
 
   .container { width: 768px; height: 1024px; }
@@ -129,6 +138,13 @@ body {
     margin: 5px;
   }
 
+  .oops {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FB3E3E;
+    margin: 10px 0 0 30px;
+  }
+
   .container-six {
     display: flex; 
     flex-direction: row; 
@@ -141,7 +157,7 @@ body {
   .logos { padding: 0 35px 0 0; }
 } 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   body { align-items: flex-end; }
 
   .container {
@@ -190,6 +206,13 @@ body {
     margin: 5px;
   }
 
+  .oops {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FB3E3E;
+    margin: 10px 0 0 30px;
+  }
+
   .container-six {
     display: flex; 
     flex-direction: row; 
@@ -233,12 +256,5 @@ button {
   color: #121725;
 }
 
-button:hover { cursor: pointer; background-color: #B3FFE2; }
+.subscribe-active { cursor: pointer; background-color: #B3FFE2; }
 
-.oops {
-  font-size: 12px;
-  font-weight: bold;
-  color: #FB3E3E;
-  margin: 10px 0 0 30px;
-  display: none;
-}
