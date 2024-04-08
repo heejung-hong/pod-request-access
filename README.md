@@ -56,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned to create specific width points for different screens sizes and to 
+I learned to create specific width points for different screens sizes and to create a function with two error messages when the email isn't filled in correctly.
 
 To see how you can add code snippets, see below:
 

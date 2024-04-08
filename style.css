@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   height: 100vh;
@@ -11,7 +9,6 @@ body {
   font-weight: 100;
   font-style: normal;
   background-color: #121725;
-  justify-content: center;
 }
  
 @media only screen and (max-width: 600px) {
@@ -95,7 +92,7 @@ body {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px)  {
-  body {  align-items: center; }
+  body { justify-content: center; align-items: center; }
 
   .container { width: 768px; height: 1024px; }
 
@@ -158,7 +155,7 @@ body {
 } 
 
 @media only screen and (min-width: 1200px) {
-  body { align-items: flex-end; }
+  body { justify-content: center; align-items: flex-end; }
 
   .container {
     width: 1275px; 
